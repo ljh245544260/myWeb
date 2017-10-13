@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*清零样式*/
+html,body{height: 100%;}
+
+body , ul , p { /*逗号:多选*/
+	margin:0; /*外边距*/
+	padding:0; /*内边距*/
+}
+body{font-family: "微软雅黑";}
+li{
+	list-style:none;/*列表样式:无(去掉小圆点)*/
+}
+
+a{
+	text-decoration:none; /*下划线:无*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

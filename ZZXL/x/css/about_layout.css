@@ -1,0 +1,71 @@
+
+/*关于我们导航*/
+.Lwf3_PRICE_nav{width: 1200px;height: 36px;margin:auto;font-size: 14px;color: #444;}
+.Lwf3_PRICE_nav span{color: black !important;}
+.Lwf3_PRICE_nav a{color: black !important;}
+.Lwf3_PRICE_main_title{text-align: center; font-size: 30px;color: #4d4d4d;border-bottom: 5px solid #4d4d4d;width: 190px;margin:auto;}
+.Lwf3_PRICE_main_menu{width: 1200px;height: 16px;margin: auto;font-size: 12px;margin-top: 40px;position: relative;}
+.Lwf3_PRICE_main_menu1{position: absolute;}
+.Lwf3_PRICE_main_menu1 a{color: black;}
+.Lwf3_PRICE_main_menu1 a:hover{color: #bcbcbc;}
+.Lwf3_PRICE_main_menu span{color: black;}
+.Lwf3_PRICE_main_h{width: 1200px;height: 130px;margin: auto;margin-top: 20px;}
+.Lwf3_PRICE_main_h li{width: 25%;height: 100%;float: left;position: relative;overflow: hidden;box-sizing:border-box;
+		border-left: 1px solid #dddddd;border-right: 1px solid #dddddd;border-bottom: 1px solid #dddddd;cursor: pointer;}
+.Lwf3_PRICE_main_ht{width: 100%;height: 10px;background: #bcbcbc;}
+.Lwf3_triangle{width: 0;height: 0;border-top: 10px solid #4d4d4d;border-left: 10px solid transparent;
+	  border-right: 10px solid transparent;position: absolute;left: 50%;top: 10px; margin-left: -10px; background: none;display: none; }
+.Lwf3_PRICE_main_hb{width: 100%;height: 120px;text-align: center;color:#bcbcbc;	}
+.Lwf3_PRICE_main_h li:hover .Lwf3_PRICE_main_ht{background: #4d4d4d !important;}
+.Lwf3_PRICE_main_h li:hover .Lwf3_triangle{display: block !important;}
+.Lwf3_PRICE_main_hb h3{padding-top: 25px;font-size: 24px;}
+.Lwf3_PRICE_main_hb span{color: #bcbcbc;text-align: center;font-size: 24px;}
+
+
+/*关于我们-品牌优势*/
+.M{width: 1200px;margin: auto;font-size: 16PX;margin-top: 20px;}
+.M p{padding: 0;margin: 0;}
+.M img{width: 1024px;display: block;margin: 0 auto;}
+/*服务流程*/
+
+.nxc_BOX{width:100%;height:100%;position:relative;}
+.nxc_w1200{width:1200px;height:100%;margin-left:15%;position:absolute;}
+.nxc_w1200 .nxc_title{margin-left:434px;position:absolute;font-size:36px;color:#6d6d6d;}
+.nxc_w1200 .nxc_box1{margin-top:60px;}
+.nxc_w1200 .nxc_box2{margin-top:48px;}
+.nxc_w1200 .nxc_box3{margin-top:21px;}
+.nxc_w1200 .nxc_box4{margin-top:21px;}
+.nxc_w1200 .nxc_box5{margin-top:48px;}
+.nxc_w1200 .nxc_box6{margin-top:48px;}
+.nxc_w1200 .nxc_box7{margin-top:75px;}
+.nxc_w1200 .nxc_box8{margin-top:75px;}
+.nxc_w1200 .nxc_words{line-height:27px;color:#6d6d6d;font-size:18px;padding-top:20px;}
+
+
+
+/*拍摄理念*/
+
+.zqh_works{width: 100%;background: #fff;}
+.w1200{width: 1200px;height: 100%;margin: auto;overflow: hidden;}
+.zqh_top{width: 100%;height: 260px;margin-top: 30px;font-size: 16px;color: #6d6d6d;text-indent: 2em;}
+.zqh_p1{width: 100%;height: 62px;display: block;}
+.zqh_p2{width: 100%;height: 85px;display: block;margin-top: 30px;}
+.zqh_p3{width: 100%;height: 40px;display: block;margin-top: 30px;}
+.zqh_top1{width: 100%;height: 140px;font-size: 16px;}
+.zqh_top1 p{width: 100%;height: 17px;margin-top: 7px;color: #6d6d6d;}
+.zqh_top1 p:nth-child(1){margin-top: 0px;color: #cc0000;}
+.zqh_top2{width: 100%;height: 430px;margin-top: 25px;}
+.zqh_sp1{width: 100%;height: 30px;color:#cc0000;display: block;font-size: 24px; }
+.zqh_sp2{width: 100%;height: 20px;color:#6d6d6d;display: block; }
+.zqh_top2 p{width: 100%;height: 20px;margin-top: 25px;color: #6d6d6d;}
+.zqh_top3{width: 100%;height: 800px;overflow: hidden;margin-top: 20px;font-size: 16px;}
+.zqh_top3 p{width: 100%;height: 20px;margin-top: 30px;color: #6d6d6d;}
+.zqh_pp{margin-top: 0px !important;}
+
+
+
+
+
+
+
+

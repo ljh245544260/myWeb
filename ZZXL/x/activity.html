@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/activity_layout.css"/>
+
+	<title>新娘百分百</title>
+	
+</head>
+<body>
+
+<!--弹出框-->
+<div class="lqh_content" id="lqh_content">
+	<div class="lqh_title">
+		<h class="lqh_h3">请填写姓名和电话</h>
+		<span class="lqh_close" id="lqh_close">×</span>
+	</div>
+	<div class="lqh_input">
+		<form method="get" action="aaa.php" onsubmit="return lqh_check_form();">
+
+			<input type="text" name="username" value="" id="lqh_username" class="lqh_username" placeholder="请填写您的姓名">
+		    <input type="text" name="phone" value="" id="lqh_phone" class="lqh_phone" placeholder="请填写您的手机号码">
+
+		    <input type="submit" name="" value="确定" class="lqh_button" id="lqh_button">
+ 		</form>
+
+	</div>	
+</div>
+<!--中奖弹出框-->
+<div class="lqh_content" id="lqh_zj">
+	<div class="lqh_title">
+		<h class="lqh_h3">中奖信息</h>
+		<span class="lqh_close" id="zj_close">×</span>
+	</div>
+	<div class="lqh_text">
+	<form method="get" action="aaa.php">
+			<p class="lqh_p">
+				恭喜您！┑(￣▽ ￣)┍ ，抽中了<span id="dj"></span>客服将在两个工作日内致电与您兑奖。
+			</p>
+
+		    <input type="button" name="" value="确定" class="lqh_btn" id="lqh_btn">
+ 		</form>
+	
+	</div>	
+</div>
+
+
+<!--背景-->
+<div class="lqh_wrap">
+	<div class="lqh_cj">
+		<div class="lqh_img" id="lqh_img"></div>
+	</div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/activity_js.js"></script>
+</html>

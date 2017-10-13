@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+
+
+	<div class="ad" id="ad">
+		距离广告结束还有
+		<span id="ads">5</span>
+		秒
+	</div>
+	<div class="advage" id="advage">
+		<div class="ad_stop" id="ad_stop"></div>
+		<a class="back" id="back"></a>
+	</div>
+
+	<div class="playvideo">
+		<video class="video" src="video1.mp4" id="a"></video>
+
+		<div class="progress" id="progress">
+			<div class="progress_bar" id="progress_bar"></div>
+			<div class="jdt" id="jdt"></div>
+			<div class="now">
+				<span id="currentTime"></span>
+				<!-- 当前时间 -->
+			</div>
+			<div class="total">
+				<span id="duration"></span>
+				
+			</div><!-- 总时长 -->
+		</div>
+		<br>
+		<input type="button" value="播放" id="btn_play" />
+		<input type="button" value="暂停" id="btn_pause" />
+		<input type="button" value="停止" id="btn_load" />
+
+	</div>
+</body>
+</html>

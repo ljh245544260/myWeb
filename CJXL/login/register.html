@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<div class="bg"></div>
+	<div class="register">
+		<form id="form1" action="http://192.168.4.2/form" method="get">
+			<div class="userLogin">用户注册</div>
+			<div class="user">
+
+				<input type="text" name="user" required="required" placeholder="请输入用户名" >
+			</div>
+			<br>
+			<div class="password">
+				<input type="password" name="password" required="required" placeholder="请输入密码" id="password">
+			</div>
+			<div class="passwordToo">
+				<input type="password" name="passwordTwo" required="required" placeholder="请再次输入密码" id="passwordTwo">
+			</div>
+			<div class="date">
+				<input style="text-indent:2em;padding-top:2.5px"  type="date" name="DateTime"/><!--  required="required"  -->
+			</div>
+			<div class='sex'>
+				
+					<input class="boy" type="radio" name="sex" value="男" id="sex1" />
+					<p class="man">男</p>
+				
+					<input class="girl" type="radio" name="sex" value="女" id="sex2" />
+					<p class="woman">女</p>
+				
+			</div>
+			<div class="phone">
+				<input  type="tel" name="PhoneCall"/>
+			</div>
+
+
+			<button class="registerIn" type="submit" id="sub" >注册</button>
+		<!-- 	<p class="register"><a href="register.html">还没有账户？请点击这里注册！</a></p> -->
+		</form>
+	</div><!-- 登录 -->
+</body>
+</html>

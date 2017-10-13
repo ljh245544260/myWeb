@@ -1,0 +1,21 @@
+function createWork(type){
+		var str = '';
+		for(var i=0;i<workData.length;i++){
+			if(type=='ALL'||workData[i].type==type){
+				str += '<li><a href="'+workData[i].href+'" target="_blank"><div class="imgBox"><img src="'+workData[i].imgSrc+'" class="img"/><div class="bg"></div><img src="images/i5.png" class="i5"/><img src="images/i6.png" class="i6"/></div><div class="t">'+workData[i].title+'</div><p class="time">'+workData[i].time+'</p></a></li>';
+			}
+		}
+		$(".work ul").css({left:0}).html(str);
+		workInd = 0;
+		setWorkStyle();
+		touchImgMove(box,imgs,aImg);
+	}
+
+
+
+
+workData[i].type 类型
+workData[i].href 链接
+workData[i].imgSrc 图片链接
+workData[i].title 标题
+workData[i].time 年月日

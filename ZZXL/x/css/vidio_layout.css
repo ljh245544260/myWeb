@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0}
+li{list-style:none}
+
+
+.qf_box{width:1275px; margin:auto}
+
+.qf_box ul{width:390px; margin-right:5px;margin-top: 30px; float:left; cursor:pointer;}
+
+.qf_box ul .l1{width:100%; height: 265px; background-size:100% 100% ; overflow:hidden;}
+
+.qf_box ul:hover .l1 img{margin-left:-400px;}
+.qf_box ul .l2{ font-size:14px; color:#686868; height:67px; border-top:1px solid #e6e6e6; margin-top:20px; line-height:67px; background-image:url(../images/jh.gif); background-repeat:no-repeat; background-position:0 50%;text-indent: 1em }
+

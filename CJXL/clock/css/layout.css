@@ -1,0 +1,12 @@
+@chatset "utf-8";
+
+
+.bg{width:1024px; height:869px; background-image: url(../images/bg.jpg);position: relative;margin:auto;z-index: 1; }
+.hour{width: 7px;height:849px;position: absolute;top: 10px;left: 50%;margin-left: -3.5px;transition: all 1s}
+.hour li{width: 7px;height:240px;background-color: #e22;position: absolute;top: 10px;left: 50%;margin-left: -3.5px;margin-top: 180px;}
+
+.min{width: 3px;height:849px;position: absolute;top: 10px;left: 50%;margin-left: -1.5px;transition: all 1s}
+.min li{width: 3px;height:350px;background-color: rgba(180,180,180,0.5);position: absolute;top: 10px;left: 50%;margin-left: -1.5px;margin-top: 100px;}
+
+.sec{width: 1px;height:849px;position: absolute;top: 10px;left: 50%;margin-left: -0.5px}
+.sec li{width: 1px;height:500px;background-color: #d67;position: absolute;left: 50%;margin-left: -0.5px;}

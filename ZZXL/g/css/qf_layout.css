@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.qf_w1200{width: 1200px; height:600px; margin: auto; margin-top:100px;}
+.qf_heard{width: 100%;height: 40px;}
+.qf_pic{margin-top:20px; width:100%; height:230px;}
+.qf_pic li{ float:left; text-align:center; font-size:20px; color:#666; font-family: }
+.qf_foot{margin-top:50px; overflow:hidden;}
+.u1{ width:670px; height:250px; float:left;}
+.u2{ width:470px; height:250px; float:left; margin-left:40px;}
+.u1 li{width:100%; height:50px; background:rgba(204, 204, 204, 0.11);}
+.u2 li{width:100%; height:50px; background:rgba(204, 204, 204, 0.11);}
+.qf_foot li{padding-left:20px;}
+.qf_foot p{width:100%; height:47px; font-size:16px; color: #666; line-height:47px;}
+
+

@@ -1,0 +1,63 @@
+@chatset "utf-8";
+body,html{padding:0; margin: 0; height: 100%;}
+body{background-image: url(../images/bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; overflow: hidden;}
+
+/*基本设定css类*/
+.imgset{background-repeat: no-repeat;background-size: 100% 100%;}
+.pFa{position: relative;}
+.pAb{position: absolute;}
+.marMid{margin:0 auto;}
+
+.top{width:100%;height:1.4rem;background-image: url(../images/top.png); background-size: 100% 100%;}
+/*-------音量控制------*/
+.voice{width: 60%;height: 1.5rem;top: 10px}
+
+.m{width:2rem;height:1.5rem;background-image: url(../images/m.png);background-size: contain;left: 0}
+
+.line{width: 70%;height: 4px;background-color: #fff;top: 50%;left: 50%;margin:-2px 0 0 -35%; }
+
+.f{width:2rem;height:1.5rem;background-image: url(../images/f.png);background-size: contain;right: 0}
+
+.ctr{width: 0.5rem;height: 1.2rem;background-color: #fff;margin-top: -0.5rem;left: 50%;margin-left: -3px;top: 0}
+/*-------音量控制------*/
+/*-------照片封面----------*/
+.pic_box{width: 86%; height:18rem;background:rgba(255,255,255,0.3); margin-top: 2rem;}
+
+.pic_yuan{width:16rem; height:16rem; background-image: url(../images/1.jpg);border-radius: 50%; top:1rem;}
+
+.text_box{width: 100% ;color: #FFFFFF; font-size: 1.1rem; text-align: center; margin-top: 1.5rem;}
+
+/*-------照片封面----------*/
+/*-------音乐进度条------*/
+
+.ProgressBar_box{width: 80%; height: 0.5rem; background: #FFFFFF; border-radius: 0.5rem;margin-top:1.8rem;}
+
+.ProgressBar{width: 0px; height: 100%; background: #62c6c7;border-radius: 25px;}
+
+.yuan{width: 1.2rem; height: 1.2rem; background: #FFFFFF; border-radius: 50%; margin-top: -0.85rem; margin-left: -0.6rem}
+
+.time_box{width: 90%; height: 20px; margin: auto; position: relative; margin-top:5px; color: #FFFFFF}
+
+.seek{float: left; height: 100%; width: 2rem; margin-left:0.6rem}
+.duration{float: right; height: 100%; }
+
+/*-------音乐进度条------*/
+
+/*-------播放控制钮------*/
+
+.play_box{width: 85%;height: 3rem;margin:0 auto;position: relative;}
+
+.play_box div{display: inline-block;}
+
+
+.left{width: 3rem; height: 3rem; background-image: url(../images/next.png); transform:rotate(180deg);margin-top: 0.5rem;margin-left: 2rem}
+.st{width: 5rem; height: 5rem;position: absolute;top: -0.5rem;left:50%;margin-left: -2.5rem;background-repeat: no-repeat;}
+.stop{background: url(../images/pause.png) no-repeat;}
+.play{background: url(../images/play.png) no-repeat;}
+.right{width: 3rem; height: 3rem; background-image: url(../images/next.png);margin-top: 0.5rem;position: absolute;right:2rem}
+
+
+
+
+
+

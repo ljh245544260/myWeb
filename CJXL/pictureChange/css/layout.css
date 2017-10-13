@@ -1,0 +1,13 @@
+@chatset "utf-8";
+.picplay{width: 100%;height: 800px;background:#000;position: relative;}
+.pic_list{width: 100%;height: 100%;position: absolute;}
+.pic_list li{width: 100%;height: 100%;position:absolute;top: 0;left: 0;background-repeat: no-repeat;background-size: cover;}
+
+.btn{width: 100%;height: 30px;background: rgba(158, 158, 158, 0.2);position: absolute;bottom: 0;text-align: center;z-index: 999;}
+.btn li{width: 30px;height: 30px;border-radius: 50%;background:rgba(255,255,255,0.4);display: inline-block;}
+.btn_left,.btn_right{width: 34px;height: 63px;cursor: pointer;background-repeat:no-repeat;background-size: 100% 100%;position: absolute;top: 50%;margin-top: -30px;z-index: 999;}
+.btn_left{left: 0;background-image: url(../images/left.png)}
+.btn_right{right: 0;background-image: url(../images/right.png)}
+/*display: inline-block;//将li标签改为内敛元素，而不是独自占用一行*/
+
+.btn_on{background: #71D2F3!important;}
